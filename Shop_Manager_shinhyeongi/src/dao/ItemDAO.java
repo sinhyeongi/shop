@@ -10,7 +10,6 @@ public class ItemDAO {
 	private static ArrayList<Cart> cartlist;
 
 	private ItemDAO() {
-		System.out.println("11");
 		list = new ArrayList<Item>();
 		categorylist = new ArrayList<String>();
 		cartlist = new ArrayList<Cart>();
